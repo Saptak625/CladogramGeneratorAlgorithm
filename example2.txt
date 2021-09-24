@@ -1,0 +1,7 @@
+Large Base,Trapezoid Base,Vertical Circle Head,Trapezoid Torso
+Uwchlanoid,Bradfordian,Shamonus,E. Wardian,Lionvillous
+    
+T T 
+TTT 
+T   
+TTTT

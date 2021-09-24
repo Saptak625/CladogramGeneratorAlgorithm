@@ -1,0 +1,59 @@
+i=0
+Branch(id=<__main__.EvoBranch object at 0x7fc73adaadf0>, species: None, derivedCharacteristic: ['Cranium', 'Cartilage Skeleton'], currentDerivedCharacteristic: ['Cranium', 'Cartilage Skeleton'], branches: [<__main__.EvoBranch object at 0x7fc73adaaee0>, <__main__.EvoBranch object at 0x7fc73adaafa0>])
+
+
+
+i=1
+Branch(id=<__main__.EvoBranch object at 0x7fc73adaaee0>, species: Lamprey, derivedCharacteristic: [], currentDerivedCharacteristic: ['Cranium', 'Cartilage Skeleton'], branches: [])
+
+Branch(id=<__main__.EvoBranch object at 0x7fc73adaafa0>, species: None, derivedCharacteristic: ['Jaw'], currentDerivedCharacteristic: ['Cranium', 'Cartilage Skeleton', 'Jaw'], branches: [<__main__.EvoBranch object at 0x7fc73adaaf70>, <__main__.EvoBranch object at 0x7fc73ae3b550>])
+
+
+
+i=2
+Branch(id=<__main__.EvoBranch object at 0x7fc73adaaf70>, species: Shark, derivedCharacteristic: [], currentDerivedCharacteristic: ['Cranium', 'Cartilage Skeleton', 'Jaw'], branches: [])
+
+Branch(id=<__main__.EvoBranch object at 0x7fc73ae3b550>, species: None, derivedCharacteristic: ['Bony Skeleton'], currentDerivedCharacteristic: ['Cranium', 'Cartilage Skeleton', 'Jaw', 'Bony Skeleton'], branches: [<__main__.EvoBranch object at 0x7fc73adbb070>, <__main__.EvoBranch object at 0x7fc73adaaeb0>])
+
+
+
+i=3
+Branch(id=<__main__.EvoBranch object at 0x7fc73adbb070>, species: Trout, derivedCharacteristic: [], currentDerivedCharacteristic: ['Cranium', 'Cartilage Skeleton', 'Jaw', 'Bony Skeleton'], branches: [])
+
+Branch(id=<__main__.EvoBranch object at 0x7fc73adaaeb0>, species: None, derivedCharacteristic: ['Four Limbs'], currentDerivedCharacteristic: ['Cranium', 'Cartilage Skeleton', 'Jaw', 'Bony Skeleton', 'Four Limbs'], branches: [<__main__.EvoBranch object at 0x7fc73adbb1c0>, <__main__.EvoBranch object at 0x7fc73adbb190>])
+
+
+
+i=4
+Branch(id=<__main__.EvoBranch object at 0x7fc73adbb1c0>, species: Frog, derivedCharacteristic: [], currentDerivedCharacteristic: ['Cranium', 'Cartilage Skeleton', 'Jaw', 'Bony Skeleton', 'Four Limbs'], branches: [])
+
+Branch(id=<__main__.EvoBranch object at 0x7fc73adbb190>, species: None, derivedCharacteristic: ['Amniotic Egg', 'Dry Scales'], currentDerivedCharacteristic: ['Cranium', 'Cartilage Skeleton', 'Jaw', 'Bony Skeleton', 'Four Limbs', 'Amniotic Egg', 'Dry Scales'], branches: [<__main__.EvoBranch object at 0x7fc73adbb4f0>, <__main__.EvoBranch object at 0x7fc73adbb490>, <__main__.EvoBranch object at 0x7fc73adbb520>, <__main__.EvoBranch object at 0x7fc73adbb910>])
+
+
+
+i=5
+Branch(id=<__main__.EvoBranch object at 0x7fc73adbb4f0>, species: Turtle, derivedCharacteristic: [], currentDerivedCharacteristic: ['Cranium', 'Cartilage Skeleton', 'Jaw', 'Bony Skeleton', 'Four Limbs', 'Amniotic Egg', 'Dry Scales'], branches: [])
+
+Branch(id=<__main__.EvoBranch object at 0x7fc73adbb490>, species: None, derivedCharacteristic: ['Hair'], currentDerivedCharacteristic: ['Cranium', 'Cartilage Skeleton', 'Jaw', 'Bony Skeleton', 'Four Limbs', 'Amniotic Egg', 'Dry Scales', 'Hair'], branches: [<__main__.EvoBranch object at 0x7fc73adbb5e0>])
+
+Branch(id=<__main__.EvoBranch object at 0x7fc73adbb520>, species: Chicken, derivedCharacteristic: ['Feathers'], currentDerivedCharacteristic: ['Cranium', 'Cartilage Skeleton', 'Jaw', 'Bony Skeleton', 'Four Limbs', 'Amniotic Egg', 'Dry Scales', 'Feathers'], branches: [])
+
+Branch(id=<__main__.EvoBranch object at 0x7fc73adbb910>, species: Snake, derivedCharacteristic: ['Loss of Four Limbs'], currentDerivedCharacteristic: ['Cranium', 'Cartilage Skeleton', 'Jaw', 'Bony Skeleton', 'Four Limbs', 'Amniotic Egg', 'Dry Scales', 'Loss of Four Limbs'], branches: [])
+
+
+
+i=6
+Branch(id=<__main__.EvoBranch object at 0x7fc73adbb5e0>, species: Bat, derivedCharacteristic: [], currentDerivedCharacteristic: ['Cranium', 'Cartilage Skeleton', 'Jaw', 'Bony Skeleton', 'Four Limbs', 'Amniotic Egg', 'Dry Scales', 'Hair'], branches: [<__main__.EvoBranch object at 0x7fc73adbb880>])
+
+
+
+i=7
+Branch(id=<__main__.EvoBranch object at 0x7fc73adbb880>, species: Mouse, derivedCharacteristic: [], currentDerivedCharacteristic: ['Cranium', 'Cartilage Skeleton', 'Jaw', 'Bony Skeleton', 'Four Limbs', 'Amniotic Egg', 'Dry Scales', 'Hair'], branches: [<__main__.EvoBranch object at 0x7fc73adbb8b0>])
+
+
+
+i=8
+Branch(id=<__main__.EvoBranch object at 0x7fc73adbb8b0>, species: Giraffe, derivedCharacteristic: [], currentDerivedCharacteristic: ['Cranium', 'Cartilage Skeleton', 'Jaw', 'Bony Skeleton', 'Four Limbs', 'Amniotic Egg', 'Dry Scales', 'Hair'], branches: [])
+
+
+

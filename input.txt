@@ -1,0 +1,12 @@
+Cranium,Jaw,Cartilage Skeleton,Bony Skeleton,Four Limbs,Amniotic Egg,Dry Scales,Feathers,Hair
+Bat,Chicken,Trout,Frog,Lamprey,Mouse,Giraffe,Shark,Snake,Turtle
+TTRTTTR T
+TTRTTTRT 
+TTRT     
+TTRTT    
+T T      
+TTRTTTR T
+TTRTTTR T
+TTT      
+TTRTLTT  
+TTRTTTT  
