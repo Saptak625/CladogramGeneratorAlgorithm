@@ -1,3 +1,5 @@
+from ete3 import Tree
+
 #Getting Input(Input Medium Soon to Change)
 with open('input.txt', 'r+') as f:
   dcLabels=f.readline().replace('\n', '').split(',')
@@ -72,6 +74,11 @@ class EvoBranch:
   def __str__(self):
     return f'Branch(id={self.__repr__()}, species: {self.species}, derivedCharacteristic: {self.derivedCharacteristic}, currentDerivedCharacteristic: {self.currentDerivedCharacteristic}, branches: {self.branches})'
 
+  def toNewickString(self):
+    if self.species:
+      return self.species
+    return '(' + ','.join([b.toNewickString() for b in self.branches]) + ')'
+
 def isSubset(subset, biggerList):
   for i in subset:
     if i not in biggerList:
@@ -99,6 +106,7 @@ while True:
             longestSubset = n
     if currentBranch not in allNodes:
       allNodes.append(currentBranch)
+    print(f'Backtraced to {longestSubset}')
     currentBranch = longestSubset #Setting longestSubset to last common ancestor starting location
   else:
     if ' '.join([str(i) for i in sorted([dcLabels.index(i) for i in currentBranch.currentDerivedCharacteristic])]) == speciesToProfiles[currentSpecies]: #Profile of species matches with profile of current branch
@@ -112,9 +120,10 @@ while True:
             if currentBranch not in allNodes:
               allNodes.append(currentBranch)
             currentBranch.addBranch(newBranch)
-            currentBranch = newBranch
             if i < len(allSpecies) - 1:
               allNodes.append(currentBranch)
+            else:
+              currentBranch = newBranch
             print('Branching')
           else: #Update Species
             currentBranch.species = species
@@ -124,9 +133,10 @@ while True:
           if currentBranch not in allNodes:
             allNodes.append(currentBranch)
           currentBranch.addBranch(newBranch)
-          currentBranch = newBranch
           if i < len(allSpecies) - 1:
-            allNodes.append(currentBranch)
+            allNodes.append(newBranch)
+          else:
+            currentBranch = newBranch
           print('Branching')
         speciesRemaining.remove(species)
       if not speciesRemaining:
@@ -180,3 +190,7 @@ with open('output.txt', 'w+') as f:
     f.write('\n\n')
     branchesInLayer = newBranches
     i+=1
+
+print(rootBranch.toNewickString()+';')
+t = Tree(rootBranch.toNewickString()+';')
+t.render("mytree.png")
