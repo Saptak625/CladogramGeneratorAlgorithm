@@ -1,5 +1,5 @@
 # CladogramGeneratorAlgorithm V1.0
-Cladogram Generation is based on a custom-built Merge Sort with Common Ancestor Backtracing and Derived Characteristics Pruning Algorithm created in Python. Demo Link can be found here(https://replit.com/join/prkmzusdhq-24sdas). The idea of this algorithm started from the Nova Evolution Lab(https://www.pbs.org/wgbh/nova/labs/lab/evolution/)
+Cladogram Generation is based on a custom-built Merge Sort with Common Ancestor Backtracing and Derived Characteristics Pruning Algorithm created in Python. Demo Link can be found here(https://replit.com/@Saptak625/CladogramGeneratorWebsite). The idea of this algorithm started from the Nova Evolution Lab(https://www.pbs.org/wgbh/nova/labs/lab/evolution/)
 
 ## Documentation
 ### Basic Usage
@@ -65,4 +65,4 @@ The basis of the algorithm is try to add species(if possible based on branch cur
 9. If you came from step 5, all dc's with same profile will be removed. Else, this is simply removing after use already. Either way, just remove each of the dc's from the currentBranch. Then, return to step 2.
 
 ### Output
-This generator creates an EvoBranch tree starting with the root branch. This tree can be manipulated to display as needed(currently only supports non-visual print logs). 
+This generator creates an EvoBranch tree starting with the root branch. This tree can be manipulated to display as needed(currently supports non-visual print logs). 
