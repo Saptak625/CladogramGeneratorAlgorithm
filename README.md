@@ -1,4 +1,4 @@
-# CladogramGeneratorAlgorithm V1.0
+# CladogramGeneratorAlgorithm V1
 Cladogram Generation is based on a custom-built Merge Sort with Common Ancestor Backtracing and Derived Characteristics Pruning Algorithm created in Python. Demo Link can be found here(https://replit.com/@Saptak625/CladogramGeneratorWebsite). The idea of this algorithm started from the Nova Evolution Lab(https://www.pbs.org/wgbh/nova/labs/lab/evolution/)
 
 ## Documentation
